@@ -1,0 +1,10 @@
+generator profesorClient {
+  provider = "prisma-client-js"
+  output   = "./generated/profesor"
+}
+
+datasource dbProfesor {
+  provider = "postgresql"
+}
+
+// Profesor, Titulo...

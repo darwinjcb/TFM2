@@ -1,0 +1,10 @@
+generator carreraClient {
+  provider = "prisma-client-js"
+  output   = "./generated/carrera"
+}
+
+datasource dbCarrera {
+  provider = "postgresql"
+}
+
+// Carrera, Ciclo, Materia...

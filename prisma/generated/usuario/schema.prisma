@@ -1,0 +1,15 @@
+generator usuarioClient {
+  provider = "prisma-client-js"
+  output   = "./generated/usuario" // 👈 IMPORTANTE
+}
+
+datasource dbUsuario {
+  provider = "postgresql"
+}
+
+// Aquí irán luego:
+// model Usuario { ... }
+// model Inscripcion { ... }
+// model Rol { ... }
+// model Permiso { ... }
+// model RolPermiso { ... }
