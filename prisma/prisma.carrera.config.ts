@@ -1,3 +1,5 @@
+// src/prisma/prisma.carrera.config.ts
+
 import 'dotenv/config'
 import { defineConfig, env } from 'prisma/config'
 

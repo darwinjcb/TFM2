@@ -2,7 +2,9 @@
 
 generator profesorClient {
   provider = "prisma-client-js"
-  output   = "./generated/profesor"
+  //output   = "./generated/profesor"
+   output   = "../node_modules/@prisma/client-profesor"
+ 
 }
 
 datasource dbProfesor {
@@ -34,7 +36,6 @@ model Titulo {
   nombre        String // "Ingeniero en Sistemas", "Magíster en ..."
   institucion   String?
   anioObtencion Int?
-
   profesorId Int
   profesor   Profesor @relation(fields: [profesorId], references: [id])
 }

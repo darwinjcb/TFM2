@@ -2,7 +2,10 @@
 
 generator carreraClient {
   provider = "prisma-client-js"
-  output   = "./generated/carrera"
+ // output   = "./generated/carrera"
+   output   = "../node_modules/@prisma/client-carrera"
+
+
 }
 
 datasource dbCarrera {

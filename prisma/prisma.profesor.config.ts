@@ -1,3 +1,5 @@
+// src/prisma/prisma.profesor.config.ts
+
 import 'dotenv/config'
 import { defineConfig, env } from 'prisma/config'
 
