@@ -12,11 +12,9 @@ import { ModuloInscripcionModule } from './modulo-inscripcion/modulo-inscripcion
 import { ModuloPermisoModule } from './modulo-permiso/modulo-permiso.module';
 import { ModuloRolModule } from './modulo-rol/modulo-rol.module';
 
-
-
 @Module({
   imports: [ModuloPrismaModule, ModuloUsuarioModule, ModuloProfesorModule, ModuloTituloModule, ModuloCarreraModule, ModuloCicloModule, ModuloMateriaModule, ModuloInscripcionModule, ModuloPermisoModule, ModuloRolModule],
-  controllers: [AppController],
+  controllers: [AppController,],
   providers: [AppService],
 })
 export class AppModule { }
