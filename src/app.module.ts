@@ -11,10 +11,11 @@ import { ModuloMateriaModule } from './modulo-materia/modulo-materia.module';
 import { ModuloInscripcionModule } from './modulo-inscripcion/modulo-inscripcion.module';
 import { ModuloPermisoModule } from './modulo-permiso/modulo-permiso.module';
 import { ModuloRolModule } from './modulo-rol/modulo-rol.module';
+import { ModuloRolPermisoModule } from './modulo-rolpermiso/modulo-rolpermiso.module';
 
 @Module({
-  imports: [ModuloPrismaModule, ModuloUsuarioModule, ModuloProfesorModule, ModuloTituloModule, ModuloCarreraModule, ModuloCicloModule, ModuloMateriaModule, ModuloInscripcionModule, ModuloPermisoModule, ModuloRolModule],
+  imports: [ModuloPrismaModule, ModuloUsuarioModule, ModuloProfesorModule, ModuloTituloModule, ModuloCarreraModule, ModuloCicloModule, ModuloMateriaModule, ModuloInscripcionModule, ModuloPermisoModule, ModuloRolModule, ModuloRolPermisoModule],
   controllers: [AppController,],
-  providers: [AppService],
+  providers: [AppService,],
 })
 export class AppModule { }
